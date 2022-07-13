@@ -8,6 +8,7 @@ Tools Used:
 -HTML<br />
 -CSS<br />
     -bootstrap (https://getbootstrap.com/)<br />
+<br />
 Visit my website for this challenge at:  
 https://gerardoanuglo.github.io/web-visualization-challenge/
 
