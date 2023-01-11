@@ -1,6 +1,6 @@
 # web-visualization-challenge
 Purpose:  
-Build an interactive dashboard to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human  navels.
+Build an interactive dashboard to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels.
 Tools Used:  
 -Javascript<br />
     -plotly (https://plotly.com/javascript/)<br />
