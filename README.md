@@ -1,12 +1,12 @@
 # BIODIVERSITY IN A BELLY BUTTON - A INTERACTIVE DASHBOARD
 
-Every human who has ever lived has had a belly button, yet how often do we forget about this body part and neglect it in our personal hygienic routine. While it's a small part of the body, it needs to be cleaned often. 
+Every human who has ever lived has had a belly button, yet how often do we forget about this body part and neglect it in our personal hygienic routine. While it's a small part of the body, it needs to be cleaned often. Since the belly button gets often forgotten, I decided to identify what kind of microbes live in this region of the human body 
+in hopes to permote frequent cleaning of the belly button.
+to partice my ability of creating a clear and concise interactive dashboard. 
 
-Since the belly button gets often forgotten, I decided to identify what kind of microbes live in this region of the human body. 
+Using data from the Belly Button Diversity Dataset, I built a interactive dashboard to explore the biodiversity in the belly button of 1000 participants. This  dashboard allows you to choose a individual by their subject id and populates each visualization with that persons unique results. 
 
-Using data from the Belly Button Diversity Dataset, I built a interactive dashboard to explore the biodiversity in the belly button of 1000 participants. 
-
-The interactive dashboard allows you to choose a individual by their subject id and populates each visualization with that persons unique results. 
+This page is a quick overview of my project. If you want to know more about the technical side of how I created this interactive dashboard, you can check out the explainer file in this github repository. 
 
 ![0](https://user-images.githubusercontent.com/85320743/212432880-c1acf90b-5870-43b0-93eb-2d3ef060bb56.png)
 
