@@ -15,11 +15,7 @@ This page is a quick overview of my project. If you want to know more about the 
 ## A Closer Look
 
 ### The Demographic TABLE
-This table shows demographic information about the individual such as age, gender, location.
-
-bbtype indicates the type of belly button, 0 being an outie and 1 being an innie.
-
-wfreq indicates how often a person cleans their belly button per week.
+This table shows demographic information about the individual such as age, gender, location. This table also shows more nuanced information such as "bbtype" and "wfeq". "bbtype" indicates the type of belly button, 0 being an outie and 1 being an innie. "wfreq" indicates how often a person cleans their belly button per week.
 
 ![0](https://user-images.githubusercontent.com/85320743/212434770-a4b64d52-66df-4b74-881a-8fd13e13070d.png)
 
