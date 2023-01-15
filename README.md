@@ -1,6 +1,6 @@
 # BIODIVERSITY IN A BELLY BUTTON - A INTERACTIVE DASHBOARD
 
-Every human who has ever lived has had a belly button, yet how often do we forget about this body part and neglect it in our personal hygienic routine. The belly button must be cleaned often because it traps sweat, dead skin, and dust. Bacteria can also be found here because the folds of the skin provide a place to grow. Certain bacteria at low density will not cause a smell, but if the bacteria becomes to dense it could cause a inpleasant repulsive smell. 
+Every human who has ever lived has had a belly button, yet how often do we forget about this body part and neglect it in our personal hygienic routine. The belly button must be cleaned often because it traps sweat, dead skin, and dust. Bacteria can also be found here because the folds of the skin provide a place to grow. Certain bacteria at low density will not cause a smell, but if the bacteria becomes to dense it could cause a unpleasant repulsive smell. 
 
 Since the belly button gets often forgotten, I decided to identify what kind of microbes live in this region of the human body in hopes to promote frequent cleaning of the belly button. I also did this project to practice my ability of creating a clear and concise interactive dashboard. 
 
