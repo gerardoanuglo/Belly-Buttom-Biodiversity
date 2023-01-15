@@ -1,14 +1,12 @@
 # BIODIVERSITY IN A BELLY BUTTON - A INTERACTIVE DASHBOARD
 
-Every human who has ever lived has had a belly button, yet how often do we forget about this body part and neglect it in our personal hygienic routine. While it's a small part of the body, it needs to be cleaned often. 
+Every human who has ever lived has had a belly button, yet how often do we forget about this body part and neglect it in our personal hygienic routine. The belly button must be cleaned often because it traps sweat, dead skin, and dust. Bacteria can also be found here because the folds of the skin provide a place to grow. Certain bacteria at low density will not cause a smell, but if the bacteria becomes to dense it could cause a inpleasant repulsive smell. 
 
-Since the belly button gets often forgotten, I decided to identify what kind of microbes live in this region of the human body in hopes to promote frequent cleaning of the belly button.
+Since the belly button gets often forgotten, I decided to identify what kind of microbes live in this region of the human body in hopes to promote frequent cleaning of the belly button. I also did this project to practice my ability of creating a clear and concise interactive dashboard. 
 
-I decided to identify what kind of microbes live in this region of the human body to practice my ability of creating a clear and concise interactive dashboard. 
+Using the Belly Button Diversity Dataset, I gathered data from a 1000 particapants. This  dashboard allows you to choose an individual by their subject id and populates each visualization with that person's unique results. 
 
-Using data from the Belly Button Diversity Dataset, I built an interactive dashboard to explore the biodiversity in the belly button of 1000 participants. This  dashboard allows you to choose an individual by their subject id and populates each visualization with that person's unique results. 
-
-This page is a quick overview of my project. If you want to know more about the technical side of how I created this interactive dashboard, you can check out the explainer file in this github repository. 
+Disclaimer: This page is a quick overview of my project. If you want to know more about the technical side of how I created this interactive dashboard, you can check out the explainer file in this github repository. 
 
 ![0](https://user-images.githubusercontent.com/85320743/212432880-c1acf90b-5870-43b0-93eb-2d3ef060bb56.png)
 
