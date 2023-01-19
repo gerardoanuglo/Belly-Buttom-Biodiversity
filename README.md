@@ -4,7 +4,7 @@ Every human who has ever lived has had a belly button, yet how often do we forge
 
 Since the belly button gets often forgotten, I decided to identify on average what kind of microbes live in this region of the human body in hopes to promote frequent cleaning of the belly button. I also did this project to practice my ability of creating a clear and concise interactive dashboard. 
 
-Using the Belly Button Diversity Dataset, I gathered data from 640 particapants. This dashboard allows you to choose an individual by their subject id and visualizes the amount of bacteria found, what kind of bacteria, and the frequency they wash their belly button.
+Using the Belly Button Diversity Dataset, I gathered data from 640 participants. This dashboard allows you to choose an individual by their subject id and visualizes the amount of bacteria found, what kind of bacteria, and the frequency they wash their belly button.
 
 ![Screenshot (2)](https://user-images.githubusercontent.com/85320743/213559980-6c7c7223-884f-4ca9-b20a-c011b3101ac6.png)
 
