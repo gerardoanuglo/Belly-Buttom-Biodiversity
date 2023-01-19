@@ -6,7 +6,7 @@ Since the belly button gets often forgotten, I decided to identify on average wh
 
 Using the Belly Button Diversity Dataset, I gathered data from 640 participants. This dashboard allows you to choose an individual by their subject id and visualizes the amount of bacteria found, what kind of bacteria, and the frequency they wash their belly button.
 
-![Screenshot (2)](https://user-images.githubusercontent.com/85320743/213559980-6c7c7223-884f-4ca9-b20a-c011b3101ac6.png)
+![Screenshot (2)](https://user-images.githubusercontent.com/85320743/213582131-a6547f27-23f7-4ac5-b55b-5be28a2e161c.png)
 
 ## A Closer Look
 
