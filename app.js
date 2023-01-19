@@ -1,19 +1,47 @@
 //read in samples.json
 const url = "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json"
 
+const avg_par = {
+    id: "average",
+    otu_ids: [1795, 944, 922, 2419, 2859, 1167, 2539, 2722, 943, 728],
+    otu_lables: ["Bacteria;Firmicutes;Bacilli;Bacillales;Staphylococcaceae;Staphylococcus", "Bacteria;Actinobacteria;Actinobacteria;Actinomycetales;Corynebacteriaceae;Corynebacterium", 
+    "Bacteria;Actinobacteria;Actinobacteria;Actinomycetales;Corynebacteriaceae;Corynebacterium", "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Anaerococcus", 
+    "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Peptoniphilus", "Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Porphyromonadaceae;Porphyromonas", 
+    "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Anaerococcus","Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Finegoldia", 
+    "Bacteria;Actinobacteria;Actinobacteria;Actinomycetales;Corynebacteriaceae;Corynebacterium", "Bacteria;Actinobacteria;Actinobacteria;Actinomycetales"],
+    sample_values: [101, 88, 75, 67, 61, 51, 48, 47, 36, 33]
+};
+
+const avg_md = {
+    id: "average",
+    ethnicity: "N/A",
+    gender: "N/A",
+    age: 35, 
+    location: "N/A",
+    bbtype: "I",
+    wfreq: 3
+};
+
 //Create a function for the bar charts
 function graphBuilder(sample){
     // Fetch the JSON data and console log it
     d3.json(url).then(function(data) {
         //obtain specified sample object
         let samples = data.samples;
+        samples.push(avg_par)
         let objectResults = samples.filter(object => object.id == sample);
         let result = objectResults[0];
 
         //obtain info for graphs
         let otuIds = result.otu_ids;
+        console.log("1")
+        console.log(otuIds)
         let values = result.sample_values;
+        console.log("2")
+        console.log(values)
         let otuLabels = result.otu_labels;
+        console.log("3")
+        console.log(otuLabels)
 
         //create BAR CHART
         //create y ticks so graph is spaced and named properly
@@ -25,7 +53,7 @@ function graphBuilder(sample){
             x: values.slice(0,10).reverse(),
             y: yTicks,
             type: "bar",
-            text: otuLabels.slice(0,10).reverse(),
+            //text: otuLabels.slice(0,9).reverse(),
             orientation: "h"
         };
         
@@ -69,10 +97,9 @@ function gatherMetadata(sample) {
     //Access url and retrieve desired data based on sample
     d3.json(url).then(function(data){
         let metadata = data.metadata;
+        metadata.push(avg_md)
         let filteredMetadata = metadata.filter(person => person.id == sample);
         let metadataResults = filteredMetadata[0];
-        console.log(metadataResults.wfreq);
-        let washNum = metadataResults.wfreq
 
         //select the "sample-metadata" div tag to place metadata into
         let table = d3.select("#sample-metadata");
@@ -92,9 +119,9 @@ function gatherMetadata(sample) {
 function gaugebuilder(sample) {
     d3.json(url).then(function(data){
         let metadata = data.metadata;
+        metadata.push(avg_md)
         let filteredMetadata = metadata.filter(person => person.id == sample);
         let metadataResults = filteredMetadata[0];
-        console.log(metadataResults.wfreq);
         let washNum = metadataResults.wfreq
 
         //Create a guage visualizing the number of times the belly button is washed per week.
@@ -143,6 +170,7 @@ function init() {
     //Gather the sample names of each individual in study
     d3.json(url).then(function(data) {
         let sampleNames = data.names;
+        sampleNames.push("average")
         
         //populat dropdown menu
         sampleNames.forEach((sample) => {
