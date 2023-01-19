@@ -71,6 +71,8 @@ function gatherMetadata(sample) {
         let metadata = data.metadata;
         let filteredMetadata = metadata.filter(person => person.id == sample);
         let metadataResults = filteredMetadata[0];
+        console.log(metadataResults.wfreq);
+        let washNum = metadataResults.wfreq
 
         //select the "sample-metadata" div tag to place metadata into
         let table = d3.select("#sample-metadata");
@@ -85,6 +87,52 @@ function gatherMetadata(sample) {
         });
     });
 };
+
+//function to create wash frequency guage
+function gaugebuilder(sample) {
+    d3.json(url).then(function(data){
+        let metadata = data.metadata;
+        let filteredMetadata = metadata.filter(person => person.id == sample);
+        let metadataResults = filteredMetadata[0];
+        console.log(metadataResults.wfreq);
+        let washNum = metadataResults.wfreq
+
+        //Create a guage visualizing the number of times the belly button is washed per week.
+        //guage essentials
+        let washData = [
+            {
+            domain: { x: [0, 1], y: [0, 1] },
+            value: washNum,
+            title: { text: "<b> Belly Button Washing Frequency</b><br> Scrubs Per Week" },
+            type: "indicator",
+            mode: "gauge+number",
+            gauge: {
+                bar: {color: "#ffffff"},
+                axis: { range: [null, 9],
+                        tickmode: "array",
+                        tickvals: [0,1,2,3,4,5,6,7,8,9],
+                        ticks: "outside"
+                    },
+                steps: [
+                { range: [0, 1], color: "#e6e6ff" },
+                { range: [1, 2], color: "#ccccff" },
+                { range: [2, 3], color: "#b3b3ff" },
+                { range: [3, 4], color: "#9999ff" },
+                { range: [4, 5], color: "#8080ff" },
+                { range: [5, 6], color: "#6666ff" },
+                { range: [6, 7], color: "#4d4dff" },
+                { range: [7, 8], color: "3333ff" },
+                { range: [8, 9], color: "#1a1aff" }
+                ],
+            }
+            }
+        ];
+
+        var gaugeLayout = { width: 600, height: 400 };
+
+        Plotly.newPlot('gauge', washData, gaugeLayout);
+    });  
+}
 
 // Initializes the page with a default plot
 function init() {
@@ -107,6 +155,7 @@ function init() {
         //set up intial sample
         graphBuilder(sampleNames[0]);
         gatherMetadata(sampleNames[0]);
+        gaugebuilder(sampleNames[0]);
     });
 };
 
@@ -114,6 +163,7 @@ function init() {
 function optionChanged(newSample) {
     graphBuilder(newSample);
     gatherMetadata(newSample);
+    gaugebuilder(newSample);
 };
 
 //finalize dashboard
