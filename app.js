@@ -4,7 +4,7 @@ const url = "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/
 const avg_par = {
     id: "average",
     otu_ids: [1795, 944, 922, 2419, 2859, 1167, 2539, 2722, 943, 728],
-    otu_lables: ["Bacteria;Firmicutes;Bacilli;Bacillales;Staphylococcaceae;Staphylococcus", "Bacteria;Actinobacteria;Actinobacteria;Actinomycetales;Corynebacteriaceae;Corynebacterium", 
+    otu_labels: ["Bacteria;Firmicutes;Bacilli;Bacillales;Staphylococcaceae;Staphylococcus", "Bacteria;Actinobacteria;Actinobacteria;Actinomycetales;Corynebacteriaceae;Corynebacterium", 
     "Bacteria;Actinobacteria;Actinobacteria;Actinomycetales;Corynebacteriaceae;Corynebacterium", "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Anaerococcus", 
     "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Peptoniphilus", "Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Porphyromonadaceae;Porphyromonas", 
     "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Anaerococcus","Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Finegoldia", 
@@ -34,14 +34,8 @@ function graphBuilder(sample){
 
         //obtain info for graphs
         let otuIds = result.otu_ids;
-        console.log("1")
-        console.log(otuIds)
         let values = result.sample_values;
-        console.log("2")
-        console.log(values)
         let otuLabels = result.otu_labels;
-        console.log("3")
-        console.log(otuLabels)
 
         //create BAR CHART
         //create y ticks so graph is spaced and named properly
@@ -53,7 +47,7 @@ function graphBuilder(sample){
             x: values.slice(0,10).reverse(),
             y: yTicks,
             type: "bar",
-            //text: otuLabels.slice(0,9).reverse(),
+            text: otuLabels.slice(0,9).reverse(),
             orientation: "h"
         };
         
