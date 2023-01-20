@@ -8,24 +8,3 @@ Using the Belly Button Diversity Dataset, I gathered data from 640 participants.
 
 ![Screenshot (2)](https://user-images.githubusercontent.com/85320743/213582131-a6547f27-23f7-4ac5-b55b-5be28a2e161c.png)
 
-## A Closer Look
-
-### The Demographic TABLE
-This table shows demographic information about the individual such as age, gender, location. This table also shows more nuanced information such as "bbtype" and "wfeq". "bbtype" indicates the type of belly button, 0 being an outie and 1 being an innie. "wfreq" indicates how often a person cleans their belly button per week.
-
-![0](https://user-images.githubusercontent.com/85320743/212434770-a4b64d52-66df-4b74-881a-8fd13e13070d.png)
-
-### The Bar Graph
-
-This visualization indicates the top ten bacteria found in the individual's belly button. 
-
-![0](https://user-images.githubusercontent.com/85320743/212435255-365a897c-513b-4429-947c-62405dcd93d7.png)
-
-### The Bubble Chart
-
-This visualization showcases the relative abundance of each microbial species (technically operational taxonomic units, OTU ID) in the belly button. The area of each circle is proportional to the value (here, the amount of times a species was found in the belly button. 
-
-![0](https://user-images.githubusercontent.com/85320743/212435611-95f2d37e-f1b1-4939-beaa-76ea124825eb.png)
-
-### Conclusion
-I could improve this dashboard by adding a gauge that visualizes the frequency a person washes their belly button, using a range from 0-9. 9 being the highest number indicated by an individual. I could create an id that represents the average person in the dataset.
