@@ -10,7 +10,13 @@ My dashboard is live at: https://gerardoanuglo.github.io/Belly-Buttom-Biodiversi
 
 ![Screenshot (2)](https://user-images.githubusercontent.com/85320743/213582131-a6547f27-23f7-4ac5-b55b-5be28a2e161c.png)
 
-Below we see the information for participant 940, they wash their belly button 2 times a week and have a relatively large and diverse group of microbes found in the region. Now if you compare that with participant 960, this person washes their belly button 7 times and has very few microbes found in the area. It's safe to assume participant 960 is better suited to avoid potential infections and smells in the area compared to participant 940. However these are only two cases, let's see what the average is among participants. 
+Above we see the information for participant 940, they wash their belly button 2 times a week and have a relatively large and diverse group of microbes found in the region. Now if you compare that with participant 960, the image below, this person washes their belly button 7 times and has very few microbes found in the area. It's safe to assume participant 960 is better suited to avoid potential infections and smells in the area compared to participant 940. However these are only two cases, let's see what the average is among participants. 
+
+<img width="1111" alt="Screenshot_20230124_031350" src="https://user-images.githubusercontent.com/85320743/214442103-9113ed4c-2a30-4ce6-bfae-afa754b65166.png">
+
+## Results: 
+
+<img width="1107" alt="Screenshot_20230124_031558" src="https://user-images.githubusercontent.com/85320743/214442294-082a6428-aa91-46e7-8777-59a6e4c53d24.png">
 
 After conducting an analysis on the dataset we concluded on average participants wash their belly button 3 times a week. A higher frequency than what is recommended by mainstream outlets, which is at least once a week. More importantly we identified the ten most common bacteria found among participants. Interestingly enough these 10 species come from only 6 distinct genus types. They are: 
 
