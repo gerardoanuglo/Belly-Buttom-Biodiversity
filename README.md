@@ -10,3 +10,19 @@ My dashboard is live at: https://gerardoanuglo.github.io/Belly-Buttom-Biodiversi
 
 ![Screenshot (2)](https://user-images.githubusercontent.com/85320743/213582131-a6547f27-23f7-4ac5-b55b-5be28a2e161c.png)
 
+Below we see the information for participant 940, they wash their belly button 2 times a week and have a relatively large and diverse group of microbes found in the region. Now if you compare that with participant 960, this person washes their belly button 7 times and has very few microbes found in the area. It's safe to assume participant 960 is better suited to avoid potential infections and smells in the area compared to participant 940. However these are only two cases, let's see what the average is among participants. 
+
+After conducting an analysis on the dataset we concluded on average participants wash their belly button 3 times a week. A higher frequency than what is recommended by mainstream outlets, which is at least once a week. More importantly we identified the ten most common bacteria found among participants. Interestingly enough these 10 species come from only 6 distinct genus types. They are: 
+
+1.  Staphylococcus
+2.  Corynebacterium
+3.  Anaerococcus
+4.  Peptoniphilus
+5.  Porphyromonas
+6.  Finegoldia
+
+Staphylococcus  also known as staph, most commonly causes skin infections. Staph is not dangerous on the skin, it only becomes dangerous when it enters the body through a cut or wound. Staph infections can be prevented with good hygiene and properly covering up any cuts.
+
+Corynebacterium is a genus with the primary pathogen in this group being Corynebacterium Diphtheriae, a serious infection that leads to difficulty breathing and heart rhythm problems. This rarely occurs in the US and Europe where children have been vaccinated against the condition for decades. 
+
+The belly button is a habitat with a diverse group of bacteria. There are bacteria in the region if exposed to a cut or wound could cause an infection and potentially more damage. It needs to be cleaned often to keep the ecosystem in balance. In a clean and healthy belly button some bacteria like Staphylococcus are more likely to be beneficial, working as the first line of defense against pathogens. 
