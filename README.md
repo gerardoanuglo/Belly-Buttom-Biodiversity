@@ -14,7 +14,7 @@ Above we see the information for participant 940, they wash their belly button 2
 
 <img width="1111" alt="Screenshot_20230124_031350" src="https://user-images.githubusercontent.com/85320743/214442103-9113ed4c-2a30-4ce6-bfae-afa754b65166.png">
 
-## Results: 
+## The Average Participant: 
 
 <img width="1107" alt="Screenshot_20230124_031558" src="https://user-images.githubusercontent.com/85320743/214442294-082a6428-aa91-46e7-8777-59a6e4c53d24.png">
 
